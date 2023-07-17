@@ -14,7 +14,7 @@ esp32/touch_sensor_hal.o: \
  /home/walther/esp-idf/components/soc/esp32/include/soc/sens_struct.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/rtc_io_struct.h \
  /home/walther/esp-idf/components/soc/include/hal/touch_sensor_types.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/hal/touch_sensor_hal_esp32.h
 
 /home/walther/esp-idf/components/soc/include/hal/touch_sensor_hal.h:
@@ -45,7 +45,7 @@ esp32/touch_sensor_hal.o: \
 
 /home/walther/esp-idf/components/soc/include/hal/touch_sensor_types.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/hal/touch_sensor_hal_esp32.h:
 /home/walther/esp-idf/components/soc/esp32/touch_sensor_hal.c:

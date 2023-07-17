@@ -6,7 +6,7 @@ panic.o: /home/walther/esp-idf/components/esp32/panic.c \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/rtc.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
@@ -114,7 +114,7 @@ panic.o: /home/walther/esp-idf/components/esp32/panic.c \
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h:
 

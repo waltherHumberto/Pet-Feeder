@@ -13,7 +13,7 @@ src/hal/uart_hal.o: \
  /home/walther/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/walther/esp-idf/components/xtensa/include/esp_attr.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h
 
 /home/walther/esp-idf/components/soc/include/hal/uart_hal.h:
 
@@ -41,5 +41,5 @@ src/hal/uart_hal.o: \
 
 /home/walther/esp-idf/components/xtensa/include/esp_attr.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 /home/walther/esp-idf/components/soc/src/hal/uart_hal.c:

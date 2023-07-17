@@ -1,5 +1,5 @@
 intr_alloc.o: /home/walther/esp-idf/components/esp32/intr_alloc.c \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -46,7 +46,7 @@ intr_alloc.o: /home/walther/esp-idf/components/esp32/intr_alloc.c \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
  /home/walther/esp-idf/components/esp_common/include/esp_ipc.h
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

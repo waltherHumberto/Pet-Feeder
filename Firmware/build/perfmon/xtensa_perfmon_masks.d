@@ -5,6 +5,7 @@ xtensa_perfmon_masks.o: \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
 
@@ -17,6 +18,8 @@ xtensa_perfmon_masks.o: \
 /home/walther/esp-idf/components/xtensa/include/xtensa/hal.h:
 
 /home/walther/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h:
+
+/home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h:
 
 /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
 

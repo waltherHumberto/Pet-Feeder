@@ -10,7 +10,7 @@ port/coap_mbedtls.o: \
  /home/walther/esp-idf/components/newlib/platform_include/sys/time.h \
  /home/walther/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/walther/esp-idf/components/esp_common/include/esp_task.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/hal.h \
@@ -166,7 +166,7 @@ port/coap_mbedtls.o: \
 
 /home/walther/esp-idf/components/esp_common/include/esp_task.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 

@@ -17,9 +17,6 @@ nghttp2/lib/nghttp2_http.o: \
  /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h \
  /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h \
  /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h \
- /home/walther/esp-idf/components/newlib/platform_include/assert.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
- /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
 
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.h:
@@ -55,12 +52,6 @@ nghttp2/lib/nghttp2_http.o: \
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h:
 
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h:
-
-/home/walther/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
-
-/home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
 
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h:
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.c:

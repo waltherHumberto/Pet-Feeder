@@ -1,5 +1,5 @@
 int_wdt.o: /home/walther/esp-idf/components/esp32/int_wdt.c \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -59,7 +59,7 @@ int_wdt.o: /home/walther/esp-idf/components/esp32/int_wdt.c \
  /home/walther/esp-idf/components/log/include/esp_log_internal.h \
  /home/walther/esp-idf/components/efuse/include/esp32/esp_efuse.h
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

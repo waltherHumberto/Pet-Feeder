@@ -2,7 +2,7 @@ esp_timer_esp32.o: \
  /home/walther/esp-idf/components/esp32/esp_timer_esp32.c \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/esp_common/include/esp_timer.h \
  /home/walther/esp-idf/components/esp_common/include/esp_system.h \
@@ -72,7 +72,7 @@ esp_timer_esp32.o: \
 
 /home/walther/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
 

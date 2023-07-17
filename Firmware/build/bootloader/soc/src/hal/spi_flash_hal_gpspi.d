@@ -13,7 +13,7 @@ src/hal/spi_flash_hal_gpspi.o: \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/include/hal/spi_types.h \
  /home/walther/esp-idf/components/soc/include/hal/spi_flash_types.h \
  /home/walther/esp-idf/components/esp_common/include/esp_types.h \
@@ -52,7 +52,7 @@ src/hal/spi_flash_hal_gpspi.o: \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/include/hal/spi_types.h:
 

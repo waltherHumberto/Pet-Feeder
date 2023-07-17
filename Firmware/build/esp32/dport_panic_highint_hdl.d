@@ -15,7 +15,7 @@ dport_panic_highint_hdl.o: \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
  /home/walther/esp-idf/components/freertos/include/freertos/xtensa_rtos.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/walther/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/walther/esp-idf/components/freertos/include/freertos/xtensa_timer.h \
@@ -57,7 +57,7 @@ dport_panic_highint_hdl.o: \
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

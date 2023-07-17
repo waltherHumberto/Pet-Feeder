@@ -10,10 +10,7 @@ nghttp2/lib/nghttp2_outbound_item.o: \
  /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h \
  /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h \
  /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h \
- /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h \
- /home/walther/esp-idf/components/newlib/platform_include/assert.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
- /home/walther/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
 
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h:
 
@@ -36,10 +33,4 @@ nghttp2/lib/nghttp2_outbound_item.o: \
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h:
 
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h:
-
-/home/walther/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
-
-/home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
 /home/walther/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.c:

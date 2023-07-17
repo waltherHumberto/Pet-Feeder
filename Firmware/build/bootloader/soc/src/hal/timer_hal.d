@@ -1,7 +1,7 @@
 src/hal/timer_hal.o: \
  /home/walther/esp-idf/components/soc/src/hal/timer_hal.c \
  /home/walther/esp-idf/components/xtensa/include/esp_attr.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/include/hal/timer_hal.h \
  /home/walther/esp-idf/components/soc/esp32/include/hal/timer_ll.h \
  /home/walther/esp-idf/components/soc/include/hal/timer_types.h \
@@ -15,7 +15,7 @@ src/hal/timer_hal.o: \
 
 /home/walther/esp-idf/components/xtensa/include/esp_attr.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/include/hal/timer_hal.h:
 

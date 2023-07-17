@@ -1,5 +1,5 @@
 brownout.o: /home/walther/esp-idf/components/esp32/brownout.c \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
@@ -58,7 +58,7 @@ brownout.o: /home/walther/esp-idf/components/esp32/brownout.c \
  /home/walther/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/walther/esp-idf/components/freertos/include/freertos/mpu_wrappers.h
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h:
 

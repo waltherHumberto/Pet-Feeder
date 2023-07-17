@@ -27,7 +27,7 @@ src/hal/dac_hal.o: /home/walther/esp-idf/components/soc/src/hal/dac_hal.c \
  /home/walther/esp-idf/components/soc/esp32/include/soc/dac_channel.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/dac_caps.h \
  /home/walther/esp-idf/components/soc/include/hal/dac_types.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/include/hal/hal_defs.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
@@ -90,7 +90,7 @@ src/hal/dac_hal.o: /home/walther/esp-idf/components/soc/src/hal/dac_hal.c \
 
 /home/walther/esp-idf/components/soc/include/hal/dac_types.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/include/hal/hal_defs.h:
 

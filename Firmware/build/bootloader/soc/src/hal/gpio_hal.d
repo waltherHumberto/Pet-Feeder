@@ -17,7 +17,7 @@ src/hal/gpio_hal.o: \
  /home/walther/esp-idf/components/soc/include/hal/gpio_types.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
  /home/walther/esp-idf/components/xtensa/include/esp_attr.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h:
 
@@ -53,5 +53,5 @@ src/hal/gpio_hal.o: \
 
 /home/walther/esp-idf/components/xtensa/include/esp_attr.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 /home/walther/esp-idf/components/soc/src/hal/gpio_hal.c:

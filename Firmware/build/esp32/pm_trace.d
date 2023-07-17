@@ -1,6 +1,6 @@
 pm_trace.o: /home/walther/esp-idf/components/esp32/pm_trace.c \
  /home/walther/esp-idf/components/esp_common/include/esp_private/pm_trace.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/driver/include/driver/gpio.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
@@ -32,7 +32,7 @@ pm_trace.o: /home/walther/esp-idf/components/esp32/pm_trace.c \
 
 /home/walther/esp-idf/components/esp_common/include/esp_private/pm_trace.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/driver/include/driver/gpio.h:
 

@@ -1,5 +1,5 @@
 spiram_psram.o: /home/walther/esp-idf/components/esp32/spiram_psram.c \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/xtensa/include/esp_attr.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
@@ -66,7 +66,7 @@ spiram_psram.o: /home/walther/esp-idf/components/esp32/spiram_psram.c \
  /home/walther/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /home/walther/esp-idf/components/bootloader_support/include/bootloader_flash_config.h
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/xtensa/include/esp_attr.h:
 

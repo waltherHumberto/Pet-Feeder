@@ -1,10 +1,10 @@
 src/hal/spi_hal_iram.o: \
  /home/walther/esp-idf/components/soc/src/hal/spi_hal_iram.c \
  /home/walther/esp-idf/components/soc/include/hal/spi_hal.h \
- /home/walther/esp-idf/components/soc/include/hal/spi_ll.h \
+ /home/walther/esp-idf/components/soc/esp32/include/hal/spi_ll.h \
  /home/walther/esp-idf/components/soc/include/hal/hal_defs.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/walther/esp-idf/components/log/include/esp_log_internal.h \
  /home/walther/esp-idf/components/soc/include/soc/spi_periph.h \
@@ -24,13 +24,13 @@ src/hal/spi_hal_iram.o: \
 
 /home/walther/esp-idf/components/soc/include/hal/spi_hal.h:
 
-/home/walther/esp-idf/components/soc/include/hal/spi_ll.h:
+/home/walther/esp-idf/components/soc/esp32/include/hal/spi_ll.h:
 
 /home/walther/esp-idf/components/soc/include/hal/hal_defs.h:
 
 /home/walther/esp-idf/components/log/include/esp_log.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 

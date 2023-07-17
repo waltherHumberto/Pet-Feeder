@@ -1,6 +1,6 @@
 crosscore_int.o: /home/walther/esp-idf/components/esp32/crosscore_int.c \
  /home/walther/esp-idf/components/xtensa/include/esp_attr.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -77,7 +77,7 @@ crosscore_int.o: /home/walther/esp-idf/components/esp32/crosscore_int.c \
 
 /home/walther/esp-idf/components/xtensa/include/esp_attr.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 

@@ -10,7 +10,7 @@ src/hal/sdio_slave_hal.o: \
  /home/walther/esp-idf/components/soc/include/hal/sdio_slave_hal.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/soc/include/soc/lldesc.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
  /home/walther/esp-idf/components/soc/include/hal/sdio_slave_ll.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/slc_reg.h \
@@ -42,7 +42,7 @@ src/hal/sdio_slave_hal.o: \
 
 /home/walther/esp-idf/components/soc/include/soc/lldesc.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h:
 

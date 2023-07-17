@@ -1,11 +1,8 @@
 expat/expat/lib/xmlparse.o: \
  /home/walther/esp-idf/components/expat/expat/expat/lib/xmlparse.c \
- /home/walther/esp-idf/components/newlib/platform_include/assert.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
- /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
+ /home/walther/esp-idf/components/expat/port/include/expat_config.h \
  /home/walther/esp-idf/components/newlib/platform_include/sys/time.h \
  /home/walther/esp-idf/components/newlib/platform_include/errno.h \
- /home/walther/esp-idf/components/expat/port/include/expat_config.h \
  /home/walther/esp-idf/components/expat/expat/expat/lib/ascii.h \
  /home/walther/esp-idf/components/expat/expat/expat/lib/expat.h \
  /home/walther/esp-idf/components/expat/expat/expat/lib/expat_external.h \
@@ -15,17 +12,11 @@ expat/expat/lib/xmlparse.o: \
  /home/walther/esp-idf/components/expat/expat/expat/lib/xmltok.h \
  /home/walther/esp-idf/components/expat/expat/expat/lib/xmlrole.h
 
-/home/walther/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
-
-/home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
+/home/walther/esp-idf/components/expat/port/include/expat_config.h:
 
 /home/walther/esp-idf/components/newlib/platform_include/sys/time.h:
 
 /home/walther/esp-idf/components/newlib/platform_include/errno.h:
-
-/home/walther/esp-idf/components/expat/port/include/expat_config.h:
 
 /home/walther/esp-idf/components/expat/expat/expat/lib/ascii.h:
 

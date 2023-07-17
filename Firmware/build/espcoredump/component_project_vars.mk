@@ -1,5 +1,5 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(IDF_PATH)/components/espcoredump/include
+COMPONENT_INCLUDES += $(IDF_PATH)/components/espcoredump/include $(IDF_PATH)/components/espcoredump/include/port/xtensa
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/espcoredump -lespcoredump
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 

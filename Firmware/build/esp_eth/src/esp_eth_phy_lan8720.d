@@ -1,7 +1,7 @@
 src/esp_eth_phy_lan8720.o: \
  /home/walther/esp-idf/components/esp_eth/src/esp_eth_phy_lan8720.c \
  /home/walther/esp-idf/components/log/include/esp_log.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/walther/esp-idf/components/log/include/esp_log_internal.h \
  /home/walther/esp-idf/components/esp_eth/include/esp_eth.h \
@@ -74,7 +74,7 @@ src/esp_eth_phy_lan8720.o: \
 
 /home/walther/esp-idf/components/log/include/esp_log.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 

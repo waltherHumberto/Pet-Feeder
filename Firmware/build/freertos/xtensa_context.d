@@ -13,7 +13,7 @@ xtensa_context.o: \
  /home/walther/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/walther/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -48,7 +48,7 @@ xtensa_context.o: \
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

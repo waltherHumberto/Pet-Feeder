@@ -1,7 +1,7 @@
 src/hal/ledc_hal.o: \
  /home/walther/esp-idf/components/soc/src/hal/ledc_hal.c \
  /home/walther/esp-idf/components/xtensa/include/esp_attr.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/include/hal/ledc_hal.h \
  /home/walther/esp-idf/components/soc/esp32/include/hal/ledc_ll.h \
  /home/walther/esp-idf/components/soc/include/hal/ledc_types.h \
@@ -15,7 +15,7 @@ src/hal/ledc_hal.o: \
 
 /home/walther/esp-idf/components/xtensa/include/esp_attr.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/include/hal/ledc_hal.h:
 

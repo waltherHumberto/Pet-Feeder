@@ -9,7 +9,8 @@ platform/ssl_pm.o: \
  /home/walther/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/walther/esp-idf/components/esp_common/include/esp_types.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/walther/esp-idf/components/log/include/esp_log_internal.h \
  /home/walther/esp-idf/components/openssl/include/platform/ssl_port.h \
@@ -20,21 +21,22 @@ platform/ssl_pm.o: \
  /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
+ /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/walther/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
  /home/walther/esp-idf/components/newlib/platform_include/time.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
- /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
@@ -45,13 +47,17 @@ platform/ssl_pm.o: \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
  /home/walther/esp-idf/components/mbedtls/port/include/sha512_alt.h \
+ /home/walther/esp-idf/components/hal/include/hal/sha_types.h \
+ /home/walther/esp-idf/components/esp_rom/include/esp32/rom/sha.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/walther/esp-idf/components/mbedtls/port/include/aes_alt.h \
- /home/walther/esp-idf/components/mbedtls/port/include/esp32/aes.h \
- /home/walther/esp-idf/components/esp_rom/include/esp32/rom/aes.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/aes/esp_aes.h \
+ /home/walther/esp-idf/components/hal/include/hal/aes_types.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
- /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
+ /home/walther/esp-idf/components/openssl/include/openssl/bio.h \
+ /home/walther/esp-idf/components/openssl/include/openssl/err.h
 
 /home/walther/esp-idf/components/openssl/include/platform/ssl_pm.h:
 
@@ -71,7 +77,9 @@ platform/ssl_pm.o: \
 
 /home/walther/esp-idf/components/log/include/esp_log.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+
+/home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
@@ -93,9 +101,9 @@ platform/ssl_pm.o: \
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
-/home/walther/esp-idf/components/mbedtls/port/include/esp_mem.h:
+/home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
+/home/walther/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
 
@@ -104,6 +112,8 @@ platform/ssl_pm.o: \
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
 
@@ -115,13 +125,13 @@ platform/ssl_pm.o: \
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h:
 
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
+
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h:
-
-/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h:
 
@@ -143,17 +153,25 @@ platform/ssl_pm.o: \
 
 /home/walther/esp-idf/components/mbedtls/port/include/sha512_alt.h:
 
+/home/walther/esp-idf/components/hal/include/hal/sha_types.h:
+
+/home/walther/esp-idf/components/esp_rom/include/esp32/rom/sha.h:
+
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
 
 /home/walther/esp-idf/components/mbedtls/port/include/aes_alt.h:
 
-/home/walther/esp-idf/components/mbedtls/port/include/esp32/aes.h:
+/home/walther/esp-idf/components/mbedtls/port/include/aes/esp_aes.h:
 
-/home/walther/esp-idf/components/esp_rom/include/esp32/rom/aes.h:
+/home/walther/esp-idf/components/hal/include/hal/aes_types.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h:
+
+/home/walther/esp-idf/components/openssl/include/openssl/bio.h:
+
+/home/walther/esp-idf/components/openssl/include/openssl/err.h:
 /home/walther/esp-idf/components/openssl/platform/ssl_pm.c:

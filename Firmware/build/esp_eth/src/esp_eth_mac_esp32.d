@@ -3,7 +3,7 @@ src/esp_eth_mac_esp32.o: \
  /home/walther/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/walther/esp-idf/components/driver/include/driver/gpio.h \
- /home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -96,7 +96,7 @@ src/esp_eth_mac_esp32.o: \
 
 /home/walther/esp-idf/components/driver/include/driver/gpio.h:
 
-/home/walther/esp-idf/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 

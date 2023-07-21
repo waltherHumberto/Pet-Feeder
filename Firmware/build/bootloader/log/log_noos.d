@@ -1,6 +1,6 @@
 log_noos.o: /home/walther/esp-idf/components/log/log_noos.c \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/log/esp_log_private.h \
  /home/walther/esp-idf/components/hal/include/hal/cpu_hal.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
@@ -26,7 +26,7 @@ log_noos.o: /home/walther/esp-idf/components/log/log_noos.c \
 
 /home/walther/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/log/esp_log_private.h:
 

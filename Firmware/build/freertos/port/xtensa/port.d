@@ -1,6 +1,6 @@
 port/xtensa/port.o: \
  /home/walther/esp-idf/components/freertos/port/xtensa/port.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
@@ -72,7 +72,7 @@ port/xtensa/port.o: \
  /home/walther/esp-idf/components/freertos/include/freertos/task.h \
  /home/walther/esp-idf/components/freertos/port/priv_include/port_systick.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
 

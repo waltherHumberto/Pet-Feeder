@@ -1,6 +1,6 @@
 servor-motor.o: \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/servor-motor.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/servor-motor.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/servor-motor.c \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/servor-motor.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
@@ -78,7 +78,7 @@ servor-motor.o: \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
  /home/walther/esp-idf/components/hal/include/hal/mcpwm_types.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/servor-motor.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/servor-motor.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 
@@ -231,4 +231,4 @@ servor-motor.o: \
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
 
 /home/walther/esp-idf/components/hal/include/hal/mcpwm_types.h:
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/./servor-motor.c:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/./servor-motor.c:

@@ -1,6 +1,6 @@
 src/bootloader_console.o: \
  /home/walther/esp-idf/components/bootloader_support/src/bootloader_console.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/bootloader_support/include_bootloader/bootloader_console.h \
  /home/walther/esp-idf/components/soc/include/soc/uart_periph.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
@@ -55,7 +55,7 @@ src/bootloader_console.o: \
  /home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /home/walther/esp-idf/components/esp_rom/esp32/esp_rom_caps.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/bootloader_support/include_bootloader/bootloader_console.h:
 

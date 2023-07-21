@@ -1,6 +1,6 @@
 src/wifi_default.o: \
  /home/walther/esp-idf/components/esp_wifi/src/wifi_default.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_wifi/include/esp_wifi.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -120,7 +120,7 @@ src/wifi_default.o: \
  /home/walther/esp-idf/components/esp_wifi/include/esp_private/wifi_types.h \
  /home/walther/esp-idf/components/esp_wifi/include/esp_wifi_netif.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_wifi/include/esp_wifi.h:
 

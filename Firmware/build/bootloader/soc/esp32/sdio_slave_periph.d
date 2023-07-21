@@ -2,7 +2,7 @@ esp32/sdio_slave_periph.o: \
  /home/walther/esp-idf/components/soc/esp32/sdio_slave_periph.c \
  /home/walther/esp-idf/components/soc/include/soc/sdio_slave_periph.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_pins.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
@@ -28,7 +28,7 @@ esp32/sdio_slave_periph.o: \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_pins.h:
 

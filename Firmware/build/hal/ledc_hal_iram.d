@@ -1,6 +1,6 @@
 ledc_hal_iram.o: /home/walther/esp-idf/components/hal/ledc_hal_iram.c \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/hal/include/hal/ledc_hal.h \
  /home/walther/esp-idf/components/hal/esp32/include/hal/ledc_ll.h \
  /home/walther/esp-idf/components/hal/include/hal/ledc_types.h \
@@ -15,7 +15,7 @@ ledc_hal_iram.o: /home/walther/esp-idf/components/hal/ledc_hal_iram.c \
 
 /home/walther/esp-idf/components/esp_common/include/esp_attr.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/hal/include/hal/ledc_hal.h:
 

@@ -1,7 +1,7 @@
 random.o: /home/walther/esp-idf/components/newlib/random.c \
  /home/walther/esp-idf/components/newlib/platform_include/sys/random.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/newlib/platform_include/errno.h \
  /home/walther/esp-idf/components/esp_system/include/esp_system.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
@@ -22,7 +22,7 @@ random.o: /home/walther/esp-idf/components/newlib/random.c \
 
 /home/walther/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/newlib/platform_include/errno.h:
 

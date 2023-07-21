@@ -1,7 +1,7 @@
 src/phy_init_esp32hxx.o: \
  /home/walther/esp-idf/components/esp_phy/src/phy_init_esp32hxx.c \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/hal.h \
@@ -53,7 +53,7 @@ src/phy_init_esp32hxx.o: \
 
 /home/walther/esp-idf/components/esp_common/include/esp_attr.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:
 

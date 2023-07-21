@@ -2,7 +2,7 @@ spi_slave_hal.o: /home/walther/esp-idf/components/hal/spi_slave_hal.c \
  /home/walther/esp-idf/components/hal/include/hal/spi_slave_hal.h \
  /home/walther/esp-idf/components/esp_common/include/esp_types.h \
  /home/walther/esp-idf/components/soc/include/soc/lldesc.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
@@ -30,7 +30,7 @@ spi_slave_hal.o: /home/walther/esp-idf/components/hal/spi_slave_hal.c \
 
 /home/walther/esp-idf/components/soc/include/soc/lldesc.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h:
 

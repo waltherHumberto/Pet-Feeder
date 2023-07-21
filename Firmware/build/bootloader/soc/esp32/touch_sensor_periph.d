@@ -2,7 +2,7 @@ esp32/touch_sensor_periph.o: \
  /home/walther/esp-idf/components/soc/esp32/touch_sensor_periph.c \
  /home/walther/esp-idf/components/soc/include/soc/touch_sensor_periph.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/touch_sensor_channel.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -18,7 +18,7 @@ esp32/touch_sensor_periph.o: \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/touch_sensor_channel.h:
 

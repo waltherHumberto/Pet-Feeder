@@ -1,7 +1,7 @@
 src/ff.o: /home/walther/esp-idf/components/fatfs/src/ff.c \
  /home/walther/esp-idf/components/fatfs/src/ff.h \
  /home/walther/esp-idf/components/fatfs/src/ffconf.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -74,7 +74,7 @@ src/ff.o: /home/walther/esp-idf/components/fatfs/src/ff.c \
 
 /home/walther/esp-idf/components/fatfs/src/ffconf.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

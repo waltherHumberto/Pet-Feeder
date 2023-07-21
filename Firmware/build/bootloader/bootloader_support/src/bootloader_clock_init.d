@@ -1,6 +1,6 @@
 src/bootloader_clock_init.o: \
  /home/walther/esp-idf/components/bootloader_support/src/bootloader_clock_init.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
@@ -36,7 +36,7 @@ src/bootloader_clock_init.o: \
  /home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /home/walther/esp-idf/components/esp_rom/include/esp_rom_uart.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h:
 

@@ -1,7 +1,7 @@
 tcpip_adapter_compat.o: \
  /home/walther/esp-idf/components/tcpip_adapter/tcpip_adapter_compat.c \
  /home/walther/esp-idf/components/esp_netif/include/esp_netif.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_wifi/include/esp_wifi_types.h \
  /home/walther/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_types_private.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
@@ -124,7 +124,7 @@ tcpip_adapter_compat.o: \
 
 /home/walther/esp-idf/components/esp_netif/include/esp_netif.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_wifi/include/esp_wifi_types.h:
 

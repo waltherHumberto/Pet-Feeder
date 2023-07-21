@@ -1,7 +1,7 @@
 aes_hal.o: /home/walther/esp-idf/components/hal/aes_hal.c \
  /home/walther/esp-idf/components/hal/include/hal/aes_hal.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/hal/include/hal/aes_types.h \
  /home/walther/esp-idf/components/hal/esp32/include/hal/aes_ll.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
@@ -28,7 +28,7 @@ aes_hal.o: /home/walther/esp-idf/components/hal/aes_hal.c \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/hal/include/hal/aes_types.h:
 

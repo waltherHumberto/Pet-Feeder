@@ -4,7 +4,7 @@ regi2c_ctrl.o: \
  /home/walther/esp-idf/components/esp_hw_support/port/esp32/private_include/regi2c_apll.h \
  /home/walther/esp-idf/components/esp_hw_support/port/esp32/private_include/regi2c_bbpll.h \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -79,7 +79,7 @@ regi2c_ctrl.o: \
 
 /home/walther/esp-idf/components/esp_common/include/esp_attr.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

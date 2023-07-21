@@ -13,7 +13,7 @@ port/arch/xtensa/panic_arch.o: \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h \
@@ -96,7 +96,7 @@ port/arch/xtensa/panic_arch.o: \
 
 /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
 

@@ -2,7 +2,7 @@ src/crypto/sha1-tprf.o: \
  /home/walther/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c \
  /home/walther/esp-idf/components/wpa_supplicant/src/utils/includes.h \
  /home/walther/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/walther/esp-idf/components/wpa_supplicant/src/utils/common.h \
  /home/walther/esp-idf/components/wpa_supplicant/port/include/os.h \
@@ -25,7 +25,7 @@ src/crypto/sha1-tprf.o: \
 
 /home/walther/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 

@@ -1,6 +1,6 @@
 esp32/interrupt_descriptor_table.o: \
  /home/walther/esp-idf/components/hal/esp32/interrupt_descriptor_table.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/hal/include/hal/interrupt_controller_hal.h \
  /home/walther/esp-idf/components/hal/include/hal/interrupt_controller_types.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
@@ -25,7 +25,7 @@ esp32/interrupt_descriptor_table.o: \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/hal/include/hal/interrupt_controller_hal.h:
 

@@ -1,7 +1,7 @@
 src/flash_qio_mode.o: \
  /home/walther/esp-idf/components/bootloader_support/src/flash_qio_mode.c \
  /home/walther/esp-idf/components/bootloader_support/include/bootloader_flash_config.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -32,7 +32,7 @@ src/flash_qio_mode.o: \
 
 /home/walther/esp-idf/components/bootloader_support/include/bootloader_flash_config.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/bootloader_support/include/esp_image_format.h:
 

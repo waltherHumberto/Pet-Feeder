@@ -1,5 +1,5 @@
 adc_hal.o: /home/walther/esp-idf/components/hal/adc_hal.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/hal/esp32/include/hal/adc_hal.h \
  /home/walther/esp-idf/components/hal/esp32/include/hal/adc_ll.h \
  /home/walther/esp-idf/components/soc/include/soc/adc_periph.h \
@@ -33,7 +33,7 @@ adc_hal.o: /home/walther/esp-idf/components/hal/adc_hal.c \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
  /home/walther/esp-idf/components/hal/include/hal/i2s_hal.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/hal/esp32/include/hal/adc_hal.h:
 

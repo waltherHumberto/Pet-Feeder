@@ -1,6 +1,6 @@
 memory-task.o: \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/memory-task.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/memory-task.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/memory-task.c \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
@@ -76,7 +76,7 @@ memory-task.o: \
  /home/walther/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/walther/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/memory-task.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 
@@ -225,4 +225,4 @@ memory-task.o: \
 /home/walther/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
 /home/walther/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h:
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/./memory-task.c:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/./memory-task.c:

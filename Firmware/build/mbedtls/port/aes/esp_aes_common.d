@@ -7,7 +7,7 @@ port/aes/esp_aes_common.o: \
  /home/walther/esp-idf/components/mbedtls/port/include/aes/esp_aes_gcm.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
  /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
@@ -56,7 +56,7 @@ port/aes/esp_aes_common.o: \
 
 /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h:
 

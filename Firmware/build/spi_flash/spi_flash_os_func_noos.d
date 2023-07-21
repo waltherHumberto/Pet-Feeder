@@ -1,6 +1,6 @@
 spi_flash_os_func_noos.o: \
  /home/walther/esp-idf/components/spi_flash/spi_flash_os_func_noos.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/spi_flash/include/esp_flash.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -27,7 +27,7 @@ spi_flash_os_func_noos.o: \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
  /home/walther/esp-idf/components/esp_ipc/include/esp_ipc_isr.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/spi_flash/include/esp_flash.h:
 

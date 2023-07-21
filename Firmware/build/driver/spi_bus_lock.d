@@ -1,7 +1,7 @@
 spi_bus_lock.o: /home/walther/esp-idf/components/driver/spi_bus_lock.c \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h \
@@ -100,7 +100,7 @@ spi_bus_lock.o: /home/walther/esp-idf/components/driver/spi_bus_lock.c \
 
 /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
 

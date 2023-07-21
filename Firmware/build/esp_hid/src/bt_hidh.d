@@ -1,7 +1,7 @@
 src/bt_hidh.o: /home/walther/esp-idf/components/esp_hid/src/bt_hidh.c \
  /home/walther/esp-idf/components/esp_hid/private/bt_hidh.h \
  /home/walther/esp-idf/components/esp_hid/include/esp_hidh.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
@@ -117,7 +117,7 @@ src/bt_hidh.o: /home/walther/esp-idf/components/esp_hid/src/bt_hidh.c \
 
 /home/walther/esp-idf/components/esp_hid/include/esp_hidh.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 

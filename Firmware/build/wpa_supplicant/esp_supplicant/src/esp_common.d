@@ -2,7 +2,7 @@ esp_supplicant/src/esp_common.o: \
  /home/walther/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c \
  /home/walther/esp-idf/components/wpa_supplicant/src/utils/includes.h \
  /home/walther/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/walther/esp-idf/components/wpa_supplicant/src/utils/common.h \
  /home/walther/esp-idf/components/wpa_supplicant/port/include/os.h \
@@ -148,7 +148,7 @@ esp_supplicant/src/esp_common.o: \
 
 /home/walther/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 

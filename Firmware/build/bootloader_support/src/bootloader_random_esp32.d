@@ -1,6 +1,6 @@
 src/bootloader_random_esp32.o: \
  /home/walther/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/bootloader_support/include/bootloader_random.h \
  /home/walther/esp-idf/components/soc/include/soc/rtc_periph.h \
  /home/walther/esp-idf/components/soc/include/soc/rtc_io_periph.h \
@@ -48,7 +48,7 @@ src/bootloader_random_esp32.o: \
  /home/walther/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
  /home/walther/esp-idf/components/driver/include/driver/periph_ctrl.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/bootloader_support/include/bootloader_random.h:
 

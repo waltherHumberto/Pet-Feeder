@@ -3,7 +3,7 @@ uart_hal.o: /home/walther/esp-idf/components/hal/uart_hal.c \
  /home/walther/esp-idf/components/hal/esp32/include/hal/uart_ll.h \
  /home/walther/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/include/soc/uart_periph.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
@@ -26,7 +26,7 @@ uart_hal.o: /home/walther/esp-idf/components/hal/uart_hal.c \
 
 /home/walther/esp-idf/components/esp_common/include/esp_attr.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/include/soc/uart_periph.h:
 

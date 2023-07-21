@@ -2,7 +2,7 @@ esp32/ledc_periph.o: \
  /home/walther/esp-idf/components/soc/esp32/ledc_periph.c \
  /home/walther/esp-idf/components/soc/include/soc/ledc_periph.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/ledc_reg.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
@@ -15,7 +15,7 @@ esp32/ledc_periph.o: \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/ledc_reg.h:
 

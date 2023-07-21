@@ -11,7 +11,7 @@ library/ssl_cert.o: \
  /home/walther/esp-idf/components/openssl/include/internal/ssl_stack.h \
  /home/walther/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /home/walther/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/walther/esp-idf/components/esp_common/include/esp_types.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
@@ -43,7 +43,7 @@ library/ssl_cert.o: \
 
 /home/walther/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/openssl/include/platform/ssl_port.h:
 

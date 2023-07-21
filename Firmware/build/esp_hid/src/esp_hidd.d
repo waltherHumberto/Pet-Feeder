@@ -1,6 +1,6 @@
 src/esp_hidd.o: /home/walther/esp-idf/components/esp_hid/src/esp_hidd.c \
  /home/walther/esp-idf/components/esp_hid/include/esp_hidd.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/esp_event/include/esp_event.h \
@@ -113,7 +113,7 @@ src/esp_hidd.o: /home/walther/esp-idf/components/esp_hid/src/esp_hidd.c \
 
 /home/walther/esp-idf/components/esp_hid/include/esp_hidd.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 

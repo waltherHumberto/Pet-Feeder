@@ -1,6 +1,6 @@
 src/flash_encrypt.o: \
  /home/walther/esp-idf/components/bootloader_support/src/flash_encrypt.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
  /home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
@@ -30,7 +30,7 @@ src/flash_encrypt.o: \
  /home/walther/esp-idf/components/esp_rom/include/esp_rom_crc.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/efuse.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/log/include/esp_log.h:
 

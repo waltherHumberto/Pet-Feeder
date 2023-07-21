@@ -1,7 +1,7 @@
 esp32/spi_periph.o: \
  /home/walther/esp-idf/components/soc/esp32/spi_periph.c \
  /home/walther/esp-idf/components/soc/include/soc/spi_periph.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
@@ -19,7 +19,7 @@ esp32/spi_periph.o: \
 
 /home/walther/esp-idf/components/soc/include/soc/spi_periph.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h:
 

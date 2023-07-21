@@ -3,7 +3,7 @@ asio/asio/src/asio.o: \
  /home/walther/esp-idf/components/asio/asio/asio/include/asio/impl/src.hpp \
  /home/walther/esp-idf/components/asio/asio/asio/include/asio/detail/config.hpp \
  /home/walther/esp-idf/components/asio/port/include/esp_asio_config.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/asio/asio/asio/include/asio/impl/error.ipp \
  /home/walther/esp-idf/components/asio/asio/asio/include/asio/error.hpp \
  /home/walther/esp-idf/components/asio/asio/asio/include/asio/error_code.hpp \
@@ -332,7 +332,7 @@ asio/asio/src/asio.o: \
 
 /home/walther/esp-idf/components/asio/port/include/esp_asio_config.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/asio/asio/asio/include/asio/impl/error.ipp:
 

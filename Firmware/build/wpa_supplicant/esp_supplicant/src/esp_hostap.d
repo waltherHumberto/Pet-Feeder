@@ -1,6 +1,6 @@
 esp_supplicant/src/esp_hostap.o: \
  /home/walther/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/wpa_supplicant/src/utils/includes.h \
  /home/walther/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
@@ -136,7 +136,7 @@ esp_supplicant/src/esp_hostap.o: \
  /home/walther/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_i.h \
  /home/walther/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wifi_driver.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/wpa_supplicant/src/utils/includes.h:
 

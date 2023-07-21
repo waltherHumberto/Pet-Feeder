@@ -1,4 +1,4 @@
-main.o: /home/walther/work/pucmg/Pet-Feeder/Firmware/main/main.c \
+main.o: /home/walther/work/projetos/Pet-Feeder/Firmware/main/main.c \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
@@ -73,10 +73,11 @@ main.o: /home/walther/work/pucmg/Pet-Feeder/Firmware/main/main.c \
  /home/walther/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/walther/esp-idf/components/hal/include/hal/gpio_types.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/leds-control.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/servor-motor.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/memory-task.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/wifi-task.h
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/leds-control.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/servor-motor.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/communication-task.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/bluetooth-task.h
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 
@@ -226,11 +227,13 @@ main.o: /home/walther/work/pucmg/Pet-Feeder/Firmware/main/main.c \
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/leds-control.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/leds-control.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/servor-motor.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/servor-motor.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/memory-task.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/wifi-task.h:
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/./main.c:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/communication-task.h:
+
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/bluetooth-task.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/./main.c:

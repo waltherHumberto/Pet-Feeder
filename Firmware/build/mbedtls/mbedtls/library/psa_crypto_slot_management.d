@@ -2,7 +2,7 @@ mbedtls/library/psa_crypto_slot_management.o: \
  /home/walther/esp-idf/components/mbedtls/mbedtls/library/psa_crypto_slot_management.c \
  /home/walther/esp-idf/components/mbedtls/mbedtls/library/common.h \
  /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
@@ -59,7 +59,7 @@ mbedtls/library/psa_crypto_slot_management.o: \
 
 /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h:
 

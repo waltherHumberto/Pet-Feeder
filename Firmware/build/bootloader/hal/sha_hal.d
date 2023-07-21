@@ -1,7 +1,7 @@
 sha_hal.o: /home/walther/esp-idf/components/hal/sha_hal.c \
  /home/walther/esp-idf/components/hal/include/hal/sha_hal.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/include/soc/lldesc.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
  /home/walther/esp-idf/components/hal/include/hal/sha_types.h \
@@ -32,7 +32,7 @@ sha_hal.o: /home/walther/esp-idf/components/hal/sha_hal.c \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/include/soc/lldesc.h:
 

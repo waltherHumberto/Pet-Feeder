@@ -1,6 +1,6 @@
 spi_flash_hal_iram.o: \
  /home/walther/esp-idf/components/hal/spi_flash_hal_iram.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/hal/include/hal/spi_flash_hal.h \
  /home/walther/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h \
  /home/walther/esp-idf/components/soc/include/soc/spi_periph.h \
@@ -29,7 +29,7 @@ spi_flash_hal_iram.o: \
  /home/walther/esp-idf/components/hal/spi_flash_hal_common.inc \
  /home/walther/esp-idf/components/hal/platform_port/include/hal/assert.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/hal/include/hal/spi_flash_hal.h:
 

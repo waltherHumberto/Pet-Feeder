@@ -1,7 +1,7 @@
 port/esp32/bignum.o: \
  /home/walther/esp-idf/components/mbedtls/port/esp32/bignum.c \
  /home/walther/esp-idf/components/soc/include/soc/hwcrypto_periph.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
@@ -37,7 +37,7 @@ port/esp32/bignum.o: \
 
 /home/walther/esp-idf/components/soc/include/soc/hwcrypto_periph.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 

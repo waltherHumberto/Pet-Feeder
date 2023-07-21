@@ -1,6 +1,6 @@
 leds-control.o: \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/leds-control.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/leds-control.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/leds-control.c \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/leds-control.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
@@ -76,7 +76,7 @@ leds-control.o: \
  /home/walther/esp-idf/components/hal/include/hal/gpio_types.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/gpio.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/include/leds-control.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/leds-control.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 
@@ -225,4 +225,4 @@ leds-control.o: \
 /home/walther/esp-idf/components/hal/include/hal/gpio_types.h:
 
 /home/walther/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
-/home/walther/work/pucmg/Pet-Feeder/Firmware/main/./leds-control.c:
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/./leds-control.c:

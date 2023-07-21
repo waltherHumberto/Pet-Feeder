@@ -1,6 +1,6 @@
 adc_deprecated.o: \
  /home/walther/esp-idf/components/driver/adc_deprecated.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_types.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
  /home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h \
@@ -101,7 +101,7 @@ adc_deprecated.o: \
  /home/walther/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/walther/esp-idf/components/driver/include/driver/adc_types_deprecated.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_types.h:
 

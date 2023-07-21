@@ -1,6 +1,6 @@
 src/esp32/bootloader_esp32.o: \
  /home/walther/esp-idf/components/bootloader_support/src/esp32/bootloader_esp32.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
  /home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h \
@@ -90,7 +90,7 @@ src/esp32/bootloader_esp32.o: \
  /home/walther/esp-idf/components/efuse/esp32/include/esp_efuse.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/secure_boot.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/bootloader/../include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_attr.h:
 

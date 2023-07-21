@@ -1,6 +1,6 @@
 cpu_util.o: /home/walther/esp-idf/components/esp_hw_support/cpu_util.c \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_hw_support/include/soc/cpu.h \
  /home/walther/esp-idf/components/esp_hw_support/include/esp_cpu.h \
  /home/walther/esp-idf/components/hal/include/hal/cpu_hal.h \
@@ -41,7 +41,7 @@ cpu_util.o: /home/walther/esp-idf/components/esp_hw_support/cpu_util.c \
 
 /home/walther/esp-idf/components/esp_common/include/esp_attr.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_hw_support/include/soc/cpu.h:
 

@@ -13,6 +13,7 @@
 
 char ssid[32];
 char password[64];
+int16_t period; 
 
 void init_memory() {
 	nvs_handle_t my_handle;
@@ -37,5 +38,14 @@ void init_memory() {
 	else {
 		printf("Error (%s) reading!\n", esp_err_to_name(err));
 		strcpy(password, PSW_DEFAULT);
+	}
+
+    err = nvs_get_i16(my_handle, "period", &period);
+	if(err == ESP_OK) {
+		printf("period value = %d minutos\n", period);
+	}
+	else {
+		printf("Error (%s) reading!\n", esp_err_to_name(err));
+		period = PERIOD_DEFAULT;
 	}
 }

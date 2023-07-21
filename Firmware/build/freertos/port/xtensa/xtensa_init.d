@@ -9,7 +9,7 @@ port/xtensa/xtensa_init.o: \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig_arch.h \
@@ -44,7 +44,7 @@ port/xtensa/xtensa_init.o: \
 
 /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h:
 

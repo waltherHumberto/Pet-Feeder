@@ -1,5 +1,5 @@
 twai_hal.o: /home/walther/esp-idf/components/hal/twai_hal.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/hal/include/hal/twai_hal.h \
  /home/walther/esp-idf/components/hal/include/hal/twai_types.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
@@ -8,7 +8,7 @@ twai_hal.o: /home/walther/esp-idf/components/hal/twai_hal.c \
  /home/walther/esp-idf/components/soc/include/soc/twai_periph.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/twai_struct.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/hal/include/hal/twai_hal.h:
 

@@ -1,5 +1,5 @@
 stdatomic.o: /home/walther/esp-idf/components/newlib/stdatomic.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
@@ -61,7 +61,7 @@ stdatomic.o: /home/walther/esp-idf/components/newlib/stdatomic.c \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro_deprecated.h \
  /home/walther/esp-idf/components/freertos/include/freertos/mpu_wrappers.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 

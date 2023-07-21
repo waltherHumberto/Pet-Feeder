@@ -1,7 +1,7 @@
 port/esp32/rtc_pm.o: \
  /home/walther/esp-idf/components/esp_hw_support/port/esp32/rtc_pm.c \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/rtc.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
@@ -18,7 +18,7 @@ port/esp32/rtc_pm.o: \
 
 /home/walther/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/rtc.h:
 

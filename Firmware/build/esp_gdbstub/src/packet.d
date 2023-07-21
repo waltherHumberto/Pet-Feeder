@@ -13,7 +13,7 @@ src/packet.o: /home/walther/esp-idf/components/esp_gdbstub/src/packet.c \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h
 
 /home/walther/esp-idf/components/esp_gdbstub/private_include/esp_gdbstub_common.h:
 
@@ -43,5 +43,5 @@ src/packet.o: /home/walther/esp-idf/components/esp_gdbstub/src/packet.c \
 
 /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 /home/walther/esp-idf/components/esp_gdbstub/src/packet.c:

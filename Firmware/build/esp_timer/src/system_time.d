@@ -1,6 +1,6 @@
 src/system_time.o: \
  /home/walther/esp-idf/components/esp_timer/src/system_time.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_timer/include/esp_timer.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -39,7 +39,7 @@ src/system_time.o: \
  /home/walther/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
  /home/walther/esp-idf/components/esp_hw_support/include/soc/esp32/rtc.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_timer/include/esp_timer.h:
 

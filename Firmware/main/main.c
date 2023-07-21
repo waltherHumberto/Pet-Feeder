@@ -9,6 +9,7 @@
 #include "servor-motor.h"
 #include "memory-task.h"
 #include "communication-task.h"
+#include "bluetooth-task.h"
 
 //! Instale a extensao no vscode better comments
 // * Requisitos para me guiar ao codigo
@@ -20,8 +21,7 @@
 
 #define BUZZER 25
 
-void app_main(void)
-{
+void app_main(void) {
 
 	// * Inicializa os Leds
 	init_leds();
@@ -32,6 +32,9 @@ void app_main(void)
 	// * Inicializa os Leds
 	init_motor();
 
+	// * Inicializa o BLE
+	init_bluetooth();
+
 	// * Inicializa o WIFI
 	init_wifi();
 
@@ -39,9 +42,7 @@ void app_main(void)
 	gpio_pad_select_gpio(BUZZER);
 	gpio_set_direction(BUZZER, GPIO_MODE_OUTPUT);
 
-	while (1)
-	{
-		// Todo:  Aqui estará o codigo se aconteceu algo aciona tal coisa etc
+	while(1) {
 		vTaskDelay(1000 / portTICK_PERIOD_MS);
 	}
 }

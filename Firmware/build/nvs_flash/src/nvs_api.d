@@ -1,5 +1,5 @@
 src/nvs_api.o: /home/walther/esp-idf/components/nvs_flash/src/nvs_api.cpp \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/nvs_flash/src/nvs.hpp \
  /home/walther/esp-idf/components/nvs_flash/include/nvs.h \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
@@ -95,7 +95,7 @@ src/nvs_api.o: /home/walther/esp-idf/components/nvs_flash/src/nvs_api.cpp \
  /home/walther/esp-idf/components/log/include/esp_log.h \
  /home/walther/esp-idf/components/log/include/esp_log_internal.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/nvs_flash/src/nvs.hpp:
 

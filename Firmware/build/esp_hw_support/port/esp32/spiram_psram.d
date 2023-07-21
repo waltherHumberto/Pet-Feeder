@@ -1,6 +1,6 @@
 port/esp32/spiram_psram.o: \
  /home/walther/esp-idf/components/esp_hw_support/port/esp32/spiram_psram.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_attr.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -125,7 +125,7 @@ port/esp32/spiram_psram.o: \
  /home/walther/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
  /home/walther/esp-idf/components/bootloader_support/include/bootloader_flash_config.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/esp_common/include/esp_attr.h:
 

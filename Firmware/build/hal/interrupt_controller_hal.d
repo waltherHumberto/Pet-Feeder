@@ -3,7 +3,7 @@ interrupt_controller_hal.o: \
  /home/walther/esp-idf/components/hal/include/hal/interrupt_controller_hal.h \
  /home/walther/esp-idf/components/hal/include/hal/interrupt_controller_types.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/walther/esp-idf/components/esp_common/include/esp_assert.h \
  /home/walther/esp-idf/components/newlib/platform_include/assert.h \
@@ -31,7 +31,7 @@ interrupt_controller_hal.o: \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc.h:
 

@@ -1,7 +1,7 @@
 memspi_host_driver.o: \
  /home/walther/esp-idf/components/spi_flash/memspi_host_driver.c \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/spi_flash/include/spi_flash/spi_flash_defs.h \
  /home/walther/esp-idf/components/spi_flash/include/memspi_host_driver.h \
  /home/walther/esp-idf/components/hal/include/hal/spi_flash_hal.h \
@@ -38,7 +38,7 @@ memspi_host_driver.o: \
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/spi_flash/include/spi_flash/spi_flash_defs.h:
 

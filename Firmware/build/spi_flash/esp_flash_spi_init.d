@@ -1,6 +1,6 @@
 esp_flash_spi_init.o: \
  /home/walther/esp-idf/components/spi_flash/esp_flash_spi_init.c \
- /home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h \
  /home/walther/esp-idf/components/spi_flash/include/esp_flash.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -113,7 +113,7 @@ esp_flash_spi_init.o: \
  /home/walther/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
  /home/walther/esp-idf/components/esp_rom/include/esp32/rom/spi_flash.h
 
-/home/walther/work/pucmg/Pet-Feeder/Firmware/build/include/sdkconfig.h:
+/home/walther/work/projetos/Pet-Feeder/Firmware/build/include/sdkconfig.h:
 
 /home/walther/esp-idf/components/spi_flash/include/esp_flash.h:
 

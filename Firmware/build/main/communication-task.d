@@ -1,6 +1,5 @@
 communication-task.o: \
  /home/walther/work/projetos/Pet-Feeder/Firmware/main/communication-task.c \
- /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/communication-task.h \
  /home/walther/esp-idf/components/esp_common/include/esp_err.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/log/include/esp_log.h \
@@ -202,9 +201,9 @@ communication-task.o: \
  /home/walther/esp-idf/components/mbedtls/port/include/aes/esp_aes.h \
  /home/walther/esp-idf/components/hal/include/hal/aes_types.h \
  /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
- /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h
-
-/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/communication-task.h:
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/communication-task.h \
+ /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h
 
 /home/walther/esp-idf/components/esp_common/include/esp_err.h:
 
@@ -609,4 +608,8 @@ communication-task.o: \
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:
 
 /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h:
+
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/communication-task.h:
+
+/home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h:
 /home/walther/work/projetos/Pet-Feeder/Firmware/main/./communication-task.c:

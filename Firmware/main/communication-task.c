@@ -1,6 +1,5 @@
 
 // ================================= HEADERS =================================
-#include "communication-task.h"
 #include "esp_err.h"
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h"
@@ -9,8 +8,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h> //Requires by memset
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 #include <esp_http_server.h>
@@ -31,7 +28,9 @@
 #include "esp_sntp.h"
 #include <time.h>
 #include "esp_tls.h"
-
+// Bibliotecas pessoais
+#include "communication-task.h"
+#include "memory-task.h"
 
 #define LED_PIN 2
 
@@ -45,7 +44,7 @@ static const char *TAG = "espressif"; // TAG for debug
 int led_state = 0;
 const char *ntpServer = "pool.ntp.org";
 
-#define EXAMPLE_ESP_WIFI_SSID "celular"
+#define EXAMPLE_ESP_WIFI_SSID "2G_AP204"
 #define EXAMPLE_ESP_WIFI_PASS "12345678"
 #define EXAMPLE_ESP_MAXIMUM_RETRY 4
 
@@ -136,15 +135,26 @@ static void event_handler(void *arg, esp_event_base_t event_base,
 void treat_received_mqtt()
 {
 	ESP_LOGI(TAG, "Deserialize.....");
+
+	ESP_LOGI(TAG, "received_mqtt=%s", received_mqtt);
 	cJSON *root2 = cJSON_Parse(received_mqtt);
 	int root2_array_size = cJSON_GetArraySize(root2);
 	ESP_LOGI(TAG, "root2_array_size=%d", root2_array_size);
+	uint16_t itens[root2_array_size];
 	for (int i = 0; i < root2_array_size; i++)
 	{
-		cJSON *element2 = cJSON_GetArrayItem(root2, i);
-		cJSON_Print(element2);
+		{
+			cJSON *elements = cJSON_GetArrayItem(root2, i);
+			itens[i] = elements->valueint;
+		}
+		cJSON_Delete(root2);
+
+		//* passando os itens do mqtt para as variaveis
+		i = 0;
+		int16_t period_aux = itens[i++];
+		bool stnow_aux = itens[i++];
+		configure_motor(period_aux, stnow_aux);
 	}
-	cJSON_Delete(root2);
 }
 
 void send_status_mqtt()
@@ -153,11 +163,13 @@ void send_status_mqtt()
 	root = cJSON_CreateObject();
 	cJSON_AddNumberToObject(root, "model", 4);
 	cJSON_AddBoolToObject(root, "config", 1);
+	cJSON_AddNumberToObject(root, "period", 240);
 	cJSON_AddNumberToObject(root, "position", 0);
 	cJSON_AddNumberToObject(root, "left", 3);
-	cJSON_AddNullToObject(root, "null");
+	printf("\n");
 	char *my_json_string = cJSON_Print(root);
-	ESP_LOGI(TAG, "my_json_string\n%s", my_json_string);
+	ESP_LOGI(TAG, "json packet is \n%s", my_json_string);
+	printf("\n");
 	cJSON_Delete(root);
 	esp_mqtt_client_publish(client, "/topic/test", my_json_string, 0, 1, 0);
 	cJSON_free(my_json_string);
@@ -178,6 +190,8 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 
 		msg_id = esp_mqtt_client_subscribe(client, "/topic/test2", 1);
 		ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
+		send_status_mqtt();
+
 		break;
 	case MQTT_EVENT_DISCONNECTED:
 		ESP_LOGI(TAG, "MQTT_EVENT_DISCONNECTED");
@@ -196,7 +210,7 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 		ESP_LOGI(TAG, "MQTT_EVENT_DATA");
 		printf("TOPIC=%.*s\r\n", event->topic_len, event->topic);
 		printf("DATA=%.*s\r\n", event->data_len, event->data);
-		strcpy(received_mqtt, event->data);
+		snprintf(received_mqtt, event->data_len + 1, "%s", event->data);
 		treat_received_mqtt();
 		break;
 	case MQTT_EVENT_ERROR:
@@ -212,7 +226,7 @@ static void mqtt_app_start(void)
 {
 	ESP_LOGI(TAG, "STARTING MQTT");
 	esp_mqtt_client_config_t mqttConfig = {
-		.uri = "mqtt://192.168.1.4:1883"};
+		.uri = "mqtt://broker.hivemq.com"};
 
 	client = esp_mqtt_client_init(&mqttConfig);
 	esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, client);

@@ -18,5 +18,8 @@
         "titleBar.inactiveBackground": "#15144299",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#151442"
+    "peacock.color": "#151442",
+    "files.associations": {
+        "memory-task.h": "c"
+    }
 }

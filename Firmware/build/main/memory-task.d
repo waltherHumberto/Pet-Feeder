@@ -1,13 +1,14 @@
 memory-task.o: \
  /home/walther/work/projetos/Pet-Feeder/Firmware/main/memory-task.c \
  /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h \
- /home/walther/esp-idf/components/esp_common/include/esp_err.h \
- /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
- /home/walther/esp-idf/components/log/include/esp_log.h \
- /home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
- /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
- /home/walther/esp-idf/components/log/include/esp_log_internal.h \
+ /home/walther/esp-idf/components/newlib/platform_include/time.h \
+ /home/walther/esp-idf/components/esp-tls/esp_tls.h \
+ /home/walther/esp-idf/components/lwip/port/esp32/include/sys/socket.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
+ /home/walther/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
+ /home/walther/esp-idf/components/newlib/platform_include/sys/ioctl.h \
+ /home/walther/esp-idf/components/esp_system/include/esp_task.h \
  /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
  /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -24,6 +25,9 @@ memory-task.o: \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
+ /home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/walther/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/walther/esp-idf/components/freertos/include/freertos/portable.h \
  /home/walther/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -37,6 +41,8 @@ memory-task.o: \
  /home/walther/esp-idf/components/esp_hw_support/include/soc/cpu.h \
  /home/walther/esp-idf/components/esp_hw_support/include/esp_cpu.h \
  /home/walther/esp-idf/components/hal/include/hal/cpu_hal.h \
+ /home/walther/esp-idf/components/esp_common/include/esp_err.h \
+ /home/walther/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/walther/esp-idf/components/hal/include/hal/cpu_types.h \
  /home/walther/esp-idf/components/hal/esp32/include/hal/cpu_ll.h \
@@ -62,35 +68,110 @@ memory-task.o: \
  /home/walther/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
  /home/walther/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro_deprecated.h \
  /home/walther/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
+ /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
+ /home/walther/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
+ /home/walther/esp-idf/components/lwip/port/esp32/include/sntp/sntp_get_set_time.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
+ /home/walther/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
+ /home/walther/esp-idf/components/newlib/platform_include/errno.h \
+ /home/walther/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
  /home/walther/esp-idf/components/freertos/include/freertos/task.h \
  /home/walther/esp-idf/components/freertos/include/freertos/list.h \
  /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/task_snapshot.h \
+ /home/walther/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/walther/esp-idf/components/freertos/include/freertos/task.h \
+ /home/walther/esp-idf/components/freertos/include/freertos/semphr.h \
+ /home/walther/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/walther/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
+ /home/walther/esp-idf/components/newlib/platform_include/sys/poll.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/netif.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/stats.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/mem.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/memp.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/errno.h \
+ /home/walther/esp-idf/components/newlib/platform_include/net/if.h \
+ /home/walther/esp-idf/components/lwip/lwip/src/include/lwip/if_api.h \
+ /home/walther/esp-idf/components/esp-tls/esp_tls_errors.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/esp_mem.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_debug.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/sha512_alt.h \
+ /home/walther/esp-idf/components/hal/include/hal/sha_types.h \
+ /home/walther/esp-idf/components/esp_rom/include/esp32/rom/sha.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/aes_alt.h \
+ /home/walther/esp-idf/components/mbedtls/port/include/aes/esp_aes.h \
+ /home/walther/esp-idf/components/esp_common/include/esp_types.h \
+ /home/walther/esp-idf/components/hal/include/hal/aes_types.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
+ /home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
+ /home/walther/esp-idf/components/log/include/esp_log.h \
+ /home/walther/esp-idf/components/log/include/esp_log_internal.h \
  /home/walther/esp-idf/components/nvs_flash/include/nvs.h \
  /home/walther/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/walther/esp-idf/components/nvs_flash/include/nvs.h \
  /home/walther/esp-idf/components/spi_flash/include/esp_partition.h \
  /home/walther/esp-idf/components/spi_flash/include/esp_flash.h \
  /home/walther/esp-idf/components/hal/include/hal/spi_flash_types.h \
- /home/walther/esp-idf/components/esp_common/include/esp_types.h \
  /home/walther/esp-idf/components/hal/include/hal/esp_flash_err.h \
  /home/walther/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/walther/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h
 
 /home/walther/work/projetos/Pet-Feeder/Firmware/main/include/memory-task.h:
 
-/home/walther/esp-idf/components/esp_common/include/esp_err.h:
+/home/walther/esp-idf/components/newlib/platform_include/time.h:
 
-/home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
+/home/walther/esp-idf/components/esp-tls/esp_tls.h:
 
-/home/walther/esp-idf/components/log/include/esp_log.h:
+/home/walther/esp-idf/components/lwip/port/esp32/include/sys/socket.h:
 
-/home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:
 
-/home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
 
-/home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
+/home/walther/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
 
-/home/walther/esp-idf/components/log/include/esp_log_internal.h:
+/home/walther/esp-idf/components/newlib/platform_include/sys/ioctl.h:
+
+/home/walther/esp-idf/components/esp_system/include/esp_task.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -124,6 +205,12 @@ memory-task.o: \
 
 /home/walther/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h:
 
+/home/walther/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+
+/home/walther/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
+
+/home/walther/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
+
 /home/walther/esp-idf/components/freertos/include/freertos/projdefs.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/portable.h:
@@ -149,6 +236,10 @@ memory-task.o: \
 /home/walther/esp-idf/components/esp_hw_support/include/esp_cpu.h:
 
 /home/walther/esp-idf/components/hal/include/hal/cpu_hal.h:
+
+/home/walther/esp-idf/components/esp_common/include/esp_err.h:
+
+/home/walther/esp-idf/components/esp_common/include/esp_compiler.h:
 
 /home/walther/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
 
@@ -200,11 +291,159 @@ memory-task.o: \
 
 /home/walther/esp-idf/components/freertos/include/freertos/mpu_wrappers.h:
 
+/home/walther/esp-idf/components/freertos/include/esp_additions/freertos/FreeRTOSConfig.h:
+
+/home/walther/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
+
+/home/walther/esp-idf/components/lwip/port/esp32/include/sntp/sntp_get_set_time.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
+
+/home/walther/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
+
+/home/walther/esp-idf/components/newlib/platform_include/errno.h:
+
+/home/walther/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+
 /home/walther/esp-idf/components/freertos/include/freertos/task.h:
 
 /home/walther/esp-idf/components/freertos/include/freertos/list.h:
 
 /home/walther/esp-idf/components/freertos/include/esp_additions/freertos/task_snapshot.h:
+
+/home/walther/esp-idf/components/freertos/include/freertos/queue.h:
+
+/home/walther/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/walther/esp-idf/components/freertos/include/freertos/semphr.h:
+
+/home/walther/esp-idf/components/freertos/include/freertos/queue.h:
+
+/home/walther/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+
+/home/walther/esp-idf/components/newlib/platform_include/sys/poll.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/stats.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/mem.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/memp.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/errno.h:
+
+/home/walther/esp-idf/components/newlib/platform_include/net/if.h:
+
+/home/walther/esp-idf/components/lwip/lwip/src/include/lwip/if_api.h:
+
+/home/walther/esp-idf/components/esp-tls/esp_tls_errors.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/esp_mem.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/mbedtls/esp_debug.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/sha512_alt.h:
+
+/home/walther/esp-idf/components/hal/include/hal/sha_types.h:
+
+/home/walther/esp-idf/components/esp_rom/include/esp32/rom/sha.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/aes_alt.h:
+
+/home/walther/esp-idf/components/mbedtls/port/include/aes/esp_aes.h:
+
+/home/walther/esp-idf/components/esp_common/include/esp_types.h:
+
+/home/walther/esp-idf/components/hal/include/hal/aes_types.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:
+
+/home/walther/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h:
+
+/home/walther/esp-idf/components/log/include/esp_log.h:
+
+/home/walther/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/walther/esp-idf/components/nvs_flash/include/nvs.h:
 
@@ -217,8 +456,6 @@ memory-task.o: \
 /home/walther/esp-idf/components/spi_flash/include/esp_flash.h:
 
 /home/walther/esp-idf/components/hal/include/hal/spi_flash_types.h:
-
-/home/walther/esp-idf/components/esp_common/include/esp_types.h:
 
 /home/walther/esp-idf/components/hal/include/hal/esp_flash_err.h:
 

@@ -21,28 +21,43 @@
 
 #define BUZZER 25
 
-void app_main(void) {
+struct equipament PetFedder;
+
+void app_main(void)
+{
 
 	// * Inicializa os Leds
 	init_leds();
 
 	// * Inicializa a memoria
-	init_memory();
+	init_memory(&PetFedder);
 
 	// * Inicializa os Leds
-	init_motor();
+	init_motor(PetFedder.position);
 
 	// * Inicializa o BLE
 	init_bluetooth();
 
 	// * Inicializa o WIFI
-	init_wifi();
+	init_wifi(&PetFedder);
 
 	// * Configuração do Buzzer
 	gpio_pad_select_gpio(BUZZER);
 	gpio_set_direction(BUZZER, GPIO_MODE_OUTPUT);
 
-	while(1) {
-		vTaskDelay(1000 / portTICK_PERIOD_MS);
+	time_t current_time;
+	double diff_minutes;
+
+	while (1)
+	{
+		printLocalTime(&current_time);
+		diff_minutes = difftime(current_time, PetFedder.last_time) / 60;
+		if (diff_minutes >= PetFedder.period)
+		{
+			put_motor_in_next_position(&PetFedder.position);
+			PetFedder.last_time = current_time;
+		}
+
+		vTaskDelay(5000 / portTICK_PERIOD_MS);
 	}
 }

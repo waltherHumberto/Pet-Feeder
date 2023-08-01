@@ -61,10 +61,9 @@ static int s_retry_num = 0;
 char received_mqtt[256];
 esp_mqtt_client_handle_t client = NULL;
 
-void printLocalTime()
+void printLocalTime(time_t *times)
 {
 	time_t now;
-	time_t times;
 	char strftime_buf[64];
 	time(&now);
 	localtime_r(&now, &times);
@@ -233,7 +232,7 @@ static void mqtt_app_start(void)
 	esp_mqtt_client_start(client);
 }
 
-void init_wifi(void)
+void init_wifi(struct equipament *wf_paramenters)
 {
 	s_wifi_event_group = xEventGroupCreate();
 
@@ -260,8 +259,8 @@ void init_wifi(void)
 
 	wifi_config_t wifi_config = {
 		.sta = {
-			.ssid = EXAMPLE_ESP_WIFI_SSID,
-			.password = EXAMPLE_ESP_WIFI_PASS,
+			.ssid = wf_paramenters->ssid,
+			.password = wf_paramenters->password,
 			/* Setting a password implies station will connect to all security modes including WEP/WPA.
 			 * However these modes are deprecated and not advisable to be used. Incase your Access point
 			 * doesn't support WPA2, these mode can be enabled by commenting below line */

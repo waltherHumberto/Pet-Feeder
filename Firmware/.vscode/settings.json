@@ -1,24 +1,24 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#212069",
-        "activityBar.background": "#212069",
+        "activityBar.activeBackground": "#1c2af8",
+        "activityBar.background": "#1c2af8",
         "activityBar.foreground": "#e7e7e7",
         "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#ab3634",
+        "activityBarBadge.background": "#f94551",
         "activityBarBadge.foreground": "#e7e7e7",
         "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#212069",
-        "statusBar.background": "#151442",
+        "sash.hoverBorder": "#1c2af8",
+        "statusBar.background": "#0714da",
         "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#212069",
-        "statusBarItem.remoteBackground": "#151442",
+        "statusBarItem.hoverBackground": "#1c2af8",
+        "statusBarItem.remoteBackground": "#0714da",
         "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#151442",
+        "titleBar.activeBackground": "#0714da",
         "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#15144299",
+        "titleBar.inactiveBackground": "#0714da99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#151442",
+    "peacock.color": "#0714da",
     "files.associations": {
         "memory-task.h": "c"
     }

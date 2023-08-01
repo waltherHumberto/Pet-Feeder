@@ -9,7 +9,6 @@
 
 #define MODEL 2
 int16_t box_position[4] = {POSITION_A, POSITION_B, POSITION_C, POSITION_D};
-int8_t last_position = 0;
 static inline uint32_t servo_per_degree_init(int angle)
 {
 	return (angle + SERVO_MAX_DEGREE) * (SERVO_MAX_PULSEWIDTH_US - SERVO_MIN_PULSEWIDTH_US) /
@@ -17,20 +16,20 @@ static inline uint32_t servo_per_degree_init(int angle)
 		   SERVO_MIN_PULSEWIDTH_US;
 }
 
-void put_motor_in_last_position()
+void put_motor_in_position(int8_t position)
 {
-	int angle = servo_per_degree_init(box_position[last_position]); // Volta para a posição inicial sempre que liga
+	int angle = servo_per_degree_init(box_position[position]); // Volta para a posição inicial sempre que liga
 	mcpwm_set_duty_in_us(MCPWM_UNIT_0, MCPWM_TIMER_0, MCPWM_OPR_A, angle);
 }
 
-void put_motor_in_next_position()
+void put_motor_in_next_position(int8_t *position)
 {
-	int angle = servo_per_degree_init(box_position[last_position++]); // Volta para a posição inicial sempre que liga
+	int angle = servo_per_degree_init(box_position[*position++]); // Volta para a posição inicial sempre que liga
 	mcpwm_set_duty_in_us(MCPWM_UNIT_0, MCPWM_TIMER_0, MCPWM_OPR_A, angle);
-	last_position %= MODEL;
+	*position %= MODEL;
 }
 
-void init_motor()
+void init_motor(int16_t last_pos);
 {
 	mcpwm_gpio_init(MCPWM_UNIT_0, MCPWM0A, MOTOR); // To drive a RC servo, one MCPWM generator is enough
 
@@ -42,5 +41,5 @@ void init_motor()
 	};
 	mcpwm_init(MCPWM_UNIT_0, MCPWM_TIMER_0, &pwm_config);
 
-	put_motor_in_last_position();
+	put_motor_in_position(last_pos);
 }

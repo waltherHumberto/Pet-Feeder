@@ -11,9 +11,9 @@ struct equipament
     char password[64];
     int16_t period;
     bool configured;
-    int16_t last_position;
+    int16_t position;
     time_t last_time;
 };
 
-void init_memory();
+void init_memory(struct equipament *memory);
 void configure_motor(int16_t period, bool startnow);
